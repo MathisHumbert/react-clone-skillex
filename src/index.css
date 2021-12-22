@@ -1,8 +1,11 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Archivo', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
